@@ -3,8 +3,8 @@
 package api
 
 import (
+	"github.com/adrianlungu/ogen/json"
 	"github.com/go-faster/jx"
-	"github.com/ogen-go/ogen/json"
 )
 
 // setDefaults set default value of fields.

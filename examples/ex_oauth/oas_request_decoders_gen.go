@@ -11,8 +11,8 @@ import (
 	"github.com/go-faster/jx"
 	"go.uber.org/multierr"
 
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/validate"
 )
 
 func (s *Server) decodeAddPetRequest(r *http.Request) (

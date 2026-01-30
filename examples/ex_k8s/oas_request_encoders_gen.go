@@ -6,9 +6,9 @@ import (
 	"bytes"
 	"net/http"
 
+	ht "github.com/adrianlungu/ogen/http"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	ht "github.com/ogen-go/ogen/http"
 )
 
 func encodePatchAdmissionregistrationV1MutatingWebhookConfigurationRequest(

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/adrianlungu/ogen/openapi"
 )
 
 func TestChainMiddlewares(t *testing.T) {

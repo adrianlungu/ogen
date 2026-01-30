@@ -6,8 +6,8 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/_testdata/testtypes"
-	"github.com/ogen-go/ogen/json"
+	"github.com/adrianlungu/ogen/_testdata/testtypes"
+	"github.com/adrianlungu/ogen/json"
 )
 
 func TestEncodeNative(t *testing.T) {

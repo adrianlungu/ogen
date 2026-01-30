@@ -10,13 +10,13 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/adrianlungu/ogen/conv"
+	"github.com/adrianlungu/ogen/middleware"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/uri"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
 	"github.com/google/uuid"
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
 	"github.com/shopspring/decimal"
 )
 

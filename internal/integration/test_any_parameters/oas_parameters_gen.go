@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/adrianlungu/ogen/middleware"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/uri"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
 )
 
 // AnyArrayParamParams is parameters of anyArrayParam operation.

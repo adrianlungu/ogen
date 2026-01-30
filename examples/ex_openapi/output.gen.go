@@ -7,10 +7,10 @@ import (
 	"math/bits"
 	"strconv"
 
+	"github.com/adrianlungu/ogen/ogenregex"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	"github.com/ogen-go/ogen/ogenregex"
-	"github.com/ogen-go/ogen/validate"
 )
 
 var regexMap = map[string]ogenregex.Regexp{

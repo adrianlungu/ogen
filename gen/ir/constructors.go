@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/adrianlungu/ogen/jsonschema"
 )
 
 func Primitive(typ PrimitiveType, schema *jsonschema.Schema) *Type {

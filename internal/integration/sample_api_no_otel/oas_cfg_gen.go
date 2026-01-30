@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"net/http"
 
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/ogenregex"
+	ht "github.com/adrianlungu/ogen/http"
+	"github.com/adrianlungu/ogen/middleware"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/ogenregex"
 )
 
 var regexMap = map[string]ogenregex.Regexp{

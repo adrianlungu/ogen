@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/adrianlungu/ogen/ogenerrors"
 	"github.com/go-faster/errors"
-	"github.com/ogen-go/ogen/ogenerrors"
 )
 
 // SecurityHandler is handler for security parameters.

@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/adrianlungu/ogen/json"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 	"github.com/google/uuid"
-	"github.com/ogen-go/ogen/json"
 	"github.com/shopspring/decimal"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"

@@ -8,8 +8,8 @@ import (
 	"mime"
 	"net/http"
 
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
-	"github.com/ogen-go/ogen/validate"
 )
 
 func decodeEchoResponse(resp *http.Response) (res EchoOK, _ error) {

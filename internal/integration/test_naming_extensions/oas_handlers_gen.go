@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
+	ht "github.com/adrianlungu/ogen/http"
+	"github.com/adrianlungu/ogen/middleware"
 	"github.com/go-faster/errors"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/middleware"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/metric"

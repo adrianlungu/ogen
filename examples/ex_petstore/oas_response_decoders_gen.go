@@ -7,12 +7,12 @@ import (
 	"mime"
 	"net/http"
 
+	"github.com/adrianlungu/ogen/conv"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/uri"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
 )
 
 func decodeCreatePetsResponse(resp *http.Response) (res *CreatePetsCreated, _ error) {

@@ -3,10 +3,10 @@
 package api
 
 import (
+	decimal3 "github.com/adrianlungu/ogen/_testdata/testtypes/bar/decimal"
+	decimal2 "github.com/adrianlungu/ogen/_testdata/testtypes/foo/decimal"
+	"github.com/adrianlungu/ogen/json"
 	"github.com/go-faster/jx"
-	decimal3 "github.com/ogen-go/ogen/_testdata/testtypes/bar/decimal"
-	decimal2 "github.com/ogen-go/ogen/_testdata/testtypes/foo/decimal"
-	"github.com/ogen-go/ogen/json"
 )
 
 // setDefaults set default value of fields.

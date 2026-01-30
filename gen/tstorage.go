@@ -3,8 +3,8 @@ package gen
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/adrianlungu/ogen/gen/ir"
+	"github.com/adrianlungu/ogen/jsonschema"
 )
 
 type schemaKey struct {

@@ -3,7 +3,7 @@ package api
 import (
 	"testing"
 
-	"github.com/ogen-go/ogen/validate"
+	"github.com/adrianlungu/ogen/validate"
 )
 
 // Test that Equal() panics when depth limit exceeded

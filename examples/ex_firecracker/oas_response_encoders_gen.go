@@ -5,9 +5,9 @@ package api
 import (
 	"net/http"
 
+	ht "github.com/adrianlungu/ogen/http"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	ht "github.com/ogen-go/ogen/http"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 )

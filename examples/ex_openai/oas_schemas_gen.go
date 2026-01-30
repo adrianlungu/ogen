@@ -3,9 +3,9 @@
 package api
 
 import (
+	ht "github.com/adrianlungu/ogen/http"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	ht "github.com/ogen-go/ogen/http"
 )
 
 // Ref: #/components/schemas/ChatCompletionRequestMessage

@@ -37,14 +37,14 @@ func defaultImports() map[string]string {
 		"go.opentelemetry.io/otel/trace":           "",
 		"go.uber.org/multierr":                     "",
 
-		"github.com/ogen-go/ogen/conv":       "",
-		"github.com/ogen-go/ogen/http":       "ht",
-		"github.com/ogen-go/ogen/middleware": "",
-		"github.com/ogen-go/ogen/json":       "",
-		"github.com/ogen-go/ogen/ogenregex":  "",
-		"github.com/ogen-go/ogen/ogenerrors": "",
-		"github.com/ogen-go/ogen/otelogen":   "",
-		"github.com/ogen-go/ogen/uri":        "",
-		"github.com/ogen-go/ogen/validate":   "",
+		"github.com/adrianlungu/ogen/conv":       "",
+		"github.com/adrianlungu/ogen/http":       "ht",
+		"github.com/adrianlungu/ogen/middleware": "",
+		"github.com/adrianlungu/ogen/json":       "",
+		"github.com/adrianlungu/ogen/ogenregex":  "",
+		"github.com/adrianlungu/ogen/ogenerrors": "",
+		"github.com/adrianlungu/ogen/otelogen":   "",
+		"github.com/adrianlungu/ogen/uri":        "",
+		"github.com/adrianlungu/ogen/validate":   "",
 	}
 }

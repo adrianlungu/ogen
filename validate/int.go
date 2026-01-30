@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/ogenregex"
+	"github.com/adrianlungu/ogen/ogenregex"
 )
 
 // Int validates integers.

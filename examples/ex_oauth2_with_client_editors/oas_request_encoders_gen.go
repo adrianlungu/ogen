@@ -6,8 +6,8 @@ import (
 	"bytes"
 	"net/http"
 
+	ht "github.com/adrianlungu/ogen/http"
 	"github.com/go-faster/jx"
-	ht "github.com/ogen-go/ogen/http"
 )
 
 func encodeTesttestRequest(

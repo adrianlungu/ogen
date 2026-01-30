@@ -20,13 +20,13 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/exp/maps"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/gen"
-	"github.com/ogen-go/ogen/gen/genfs"
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/ogenversion"
-	"github.com/ogen-go/ogen/internal/ogenzap"
-	"github.com/ogen-go/ogen/location"
+	"github.com/adrianlungu/ogen"
+	"github.com/adrianlungu/ogen/gen"
+	"github.com/adrianlungu/ogen/gen/genfs"
+	"github.com/adrianlungu/ogen/gen/ir"
+	"github.com/adrianlungu/ogen/internal/ogenversion"
+	"github.com/adrianlungu/ogen/internal/ogenzap"
+	"github.com/adrianlungu/ogen/location"
 )
 
 func cleanDir(targetDir string, files []os.DirEntry) (rerr error) {

@@ -7,10 +7,10 @@ import (
 	"mime"
 	"net/http"
 
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
 )
 
 func decodeTestResponse(resp *http.Response) (res *TestOK, _ error) {

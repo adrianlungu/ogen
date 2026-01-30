@@ -3,8 +3,8 @@ package parser
 import (
 	"strings"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/adrianlungu/ogen"
+	"github.com/adrianlungu/ogen/jsonschema"
 )
 
 type componentsResolver struct {

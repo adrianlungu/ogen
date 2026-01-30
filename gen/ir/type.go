@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ogen-go/ogen/internal/naming"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/ogenregex"
+	"github.com/adrianlungu/ogen/internal/naming"
+	"github.com/adrianlungu/ogen/jsonschema"
+	"github.com/adrianlungu/ogen/ogenregex"
 )
 
 type Kind string

@@ -15,9 +15,9 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/go-faster/yaml"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/gen"
-	"github.com/ogen-go/ogen/location"
+	"github.com/adrianlungu/ogen"
+	"github.com/adrianlungu/ogen/gen"
+	"github.com/adrianlungu/ogen/location"
 )
 
 var errPanic = errors.New("panic")

@@ -3,8 +3,8 @@
 package api
 
 import (
+	ht "github.com/adrianlungu/ogen/http"
 	"github.com/google/uuid"
-	ht "github.com/ogen-go/ogen/http"
 )
 
 // OnlyFormOK is response for OnlyForm operation.

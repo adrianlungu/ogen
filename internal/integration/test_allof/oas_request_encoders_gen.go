@@ -8,11 +8,11 @@ import (
 	"mime/multipart"
 	"net/http"
 
+	"github.com/adrianlungu/ogen/conv"
+	ht "github.com/adrianlungu/ogen/http"
+	"github.com/adrianlungu/ogen/uri"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/uri"
 )
 
 func encodeNullableStringsRequest(

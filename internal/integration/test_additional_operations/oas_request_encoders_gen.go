@@ -5,7 +5,7 @@ package api
 import (
 	"net/http"
 
-	ht "github.com/ogen-go/ogen/http"
+	ht "github.com/adrianlungu/ogen/http"
 )
 
 func encodeEchoRequest(

@@ -3,8 +3,8 @@
 package api
 
 import (
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
-	"github.com/ogen-go/ogen/validate"
 )
 
 func (s *Location) Validate() error {

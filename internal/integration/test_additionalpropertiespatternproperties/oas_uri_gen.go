@@ -3,9 +3,9 @@
 package api
 
 import (
+	"github.com/adrianlungu/ogen/conv"
+	"github.com/adrianlungu/ogen/uri"
 	"github.com/go-faster/errors"
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/uri"
 )
 
 // EncodeURI encodes AliveFlexData as URI form.

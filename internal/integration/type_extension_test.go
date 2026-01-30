@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/_testdata/testtypes"
-	api "github.com/ogen-go/ogen/internal/integration/test_type_extension"
+	"github.com/adrianlungu/ogen/_testdata/testtypes"
+	api "github.com/adrianlungu/ogen/internal/integration/test_type_extension"
 )
 
 type testTypeHandler struct {
@@ -171,7 +171,7 @@ func TestTypeExtension_JSON(t *testing.T) {
 		"aliasPointer": "13",
 		"builtin": { "key1": "foo", "key2": "bar" },
 		"array": [ "1", "2", "3" ],
-		"map": { "key1": "1", "key2": "2", "key3": "3" } 
+		"map": { "key1": "1", "key2": "2", "key3": "3" }
 	}`
 
 	t.Run("Required", func(t *testing.T) {

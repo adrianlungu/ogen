@@ -3,8 +3,8 @@ package openapi
 import (
 	"encoding/json"
 
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/adrianlungu/ogen/jsonschema"
+	"github.com/adrianlungu/ogen/location"
 )
 
 // MediaType is Media Type Object.

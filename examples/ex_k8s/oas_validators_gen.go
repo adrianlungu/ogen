@@ -5,8 +5,8 @@ package api
 import (
 	"fmt"
 
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
-	"github.com/ogen-go/ogen/validate"
 )
 
 func (s *IoK8sAPIAdmissionregistrationV1MutatingWebhook) Validate() error {

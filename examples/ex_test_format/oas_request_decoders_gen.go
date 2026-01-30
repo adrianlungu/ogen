@@ -13,12 +13,12 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/adrianlungu/ogen/json"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 	"github.com/google/uuid"
-	"github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
 	"github.com/shopspring/decimal"
 )
 

@@ -8,13 +8,13 @@ import (
 	"mime"
 	"net/http"
 
+	"github.com/adrianlungu/ogen/conv"
+	ht "github.com/adrianlungu/ogen/http"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/uri"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
 )
 
 func decodeAnyContentTypeBinaryStringSchemaResponse(resp *http.Response) (res *AnyContentTypeBinaryStringSchemaOKHeaders, _ error) {

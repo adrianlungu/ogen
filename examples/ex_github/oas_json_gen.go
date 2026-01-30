@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/adrianlungu/ogen/json"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	"github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/validate"
 )
 
 // Encode implements json.Marshaler.

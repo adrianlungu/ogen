@@ -6,9 +6,9 @@ import (
 	"io"
 	"net/http"
 
+	ht "github.com/adrianlungu/ogen/http"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	ht "github.com/ogen-go/ogen/http"
 )
 
 func encodeDataGetFormatResponse(response string, w http.ResponseWriter) error {

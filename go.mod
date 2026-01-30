@@ -2,8 +2,6 @@ module github.com/adrianlungu/ogen
 
 go 1.24.0
 
-replace github.com/ogen-go/ogen v1.18.0 => github.com/adrianlungu/ogen v0.0.0-20260130072937-9b6c5c2ac0e3
-
 require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/dlclark/regexp2 v1.11.5

@@ -6,12 +6,12 @@ import (
 	"math/bits"
 	"strconv"
 
+	decimal3 "github.com/adrianlungu/ogen/_testdata/testtypes/bar/decimal"
+	decimal2 "github.com/adrianlungu/ogen/_testdata/testtypes/foo/decimal"
+	"github.com/adrianlungu/ogen/json"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	decimal3 "github.com/ogen-go/ogen/_testdata/testtypes/bar/decimal"
-	decimal2 "github.com/ogen-go/ogen/_testdata/testtypes/foo/decimal"
-	"github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/validate"
 )
 
 // Encode encodes decimal2.Decimal as json.

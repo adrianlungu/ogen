@@ -11,10 +11,10 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/naming"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/adrianlungu/ogen/gen/ir"
+	"github.com/adrianlungu/ogen/internal/naming"
+	"github.com/adrianlungu/ogen/jsonschema"
+	"github.com/adrianlungu/ogen/location"
 )
 
 type refNamer func(ref jsonschema.Ref) (string, error)

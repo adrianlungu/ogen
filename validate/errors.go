@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ogen-go/ogen/ogenregex"
+	"github.com/adrianlungu/ogen/ogenregex"
 
 	"github.com/go-faster/errors"
 )

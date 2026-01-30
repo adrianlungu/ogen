@@ -7,12 +7,12 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/adrianlungu/ogen"
+	"github.com/adrianlungu/ogen/internal/xmaps"
+	"github.com/adrianlungu/ogen/jsonpointer"
+	"github.com/adrianlungu/ogen/jsonschema"
+	"github.com/adrianlungu/ogen/location"
+	"github.com/adrianlungu/ogen/openapi"
 )
 
 type (

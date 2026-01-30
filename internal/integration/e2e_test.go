@@ -20,11 +20,11 @@ import (
 	metricnoop "go.opentelemetry.io/otel/metric/noop"
 	tracenoop "go.opentelemetry.io/otel/trace/noop"
 
-	"github.com/ogen-go/ogen/conv"
-	api "github.com/ogen-go/ogen/internal/integration/sample_api"
-	"github.com/ogen-go/ogen/internal/integration/techempower"
-	"github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/adrianlungu/ogen/conv"
+	api "github.com/adrianlungu/ogen/internal/integration/sample_api"
+	"github.com/adrianlungu/ogen/internal/integration/techempower"
+	"github.com/adrianlungu/ogen/json"
+	"github.com/adrianlungu/ogen/validate"
 )
 
 var (

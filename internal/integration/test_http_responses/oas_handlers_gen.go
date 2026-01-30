@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
+	ht "github.com/adrianlungu/ogen/http"
+	"github.com/adrianlungu/ogen/middleware"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/otelogen"
 	"github.com/go-faster/errors"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/otelogen"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/metric"
@@ -1559,7 +1559,7 @@ func (s *Server) handleOctetStreamEmptySchemaRequest(args [0]string, argsEscaped
 
 // handleOptionalHeadersRequest handles optionalHeaders operation.
 //
-// Https://github.com/ogen-go/ogen/issues/822.
+// Https://github.com/adrianlungu/ogen/issues/822.
 //
 // GET /optionalHeaders
 func (s *Server) handleOptionalHeadersRequest(args [0]string, argsEscaped bool, w http.ResponseWriter, r *http.Request) {

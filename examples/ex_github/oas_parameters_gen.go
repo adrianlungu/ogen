@@ -8,12 +8,12 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/adrianlungu/ogen/conv"
+	"github.com/adrianlungu/ogen/middleware"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/uri"
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
 )
 
 // ActionsAddRepoAccessToSelfHostedRunnerGroupInOrgParams is parameters of actions/add-repo-access-to-self-hosted-runner-group-in-org operation.

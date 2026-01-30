@@ -11,16 +11,16 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/conv"
-	api "github.com/ogen-go/ogen/internal/integration/sample_api"
-	"github.com/ogen-go/ogen/internal/integration/techempower"
-	singleEndpoint "github.com/ogen-go/ogen/internal/integration/test_single_endpoint"
-	"github.com/ogen-go/ogen/json"
+	"github.com/adrianlungu/ogen/conv"
+	api "github.com/adrianlungu/ogen/internal/integration/sample_api"
+	"github.com/adrianlungu/ogen/internal/integration/techempower"
+	singleEndpoint "github.com/adrianlungu/ogen/internal/integration/test_single_endpoint"
+	"github.com/adrianlungu/ogen/json"
 )
 
 // Ensure that convenient errors triggered on single endpoint.
 //
-// See https://github.com/ogen-go/ogen/issues/63.
+// See https://github.com/adrianlungu/ogen/issues/63.
 var (
 	_                      = singleEndpoint.ErrorStatusCode{}
 	_ singleEndpoint.Error = singleEndpoint.ErrorStatusCode{}.Response

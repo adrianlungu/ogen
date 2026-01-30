@@ -6,8 +6,8 @@ import (
 	"mime"
 	"net/http"
 
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
-	"github.com/ogen-go/ogen/validate"
 )
 
 func (s *Server) decodeEchoRequest(r *http.Request) (

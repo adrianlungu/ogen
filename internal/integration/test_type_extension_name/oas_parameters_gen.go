@@ -5,14 +5,14 @@ package api
 import (
 	"net/http"
 
+	decimal3 "github.com/adrianlungu/ogen/_testdata/testtypes/bar/decimal"
+	decimal2 "github.com/adrianlungu/ogen/_testdata/testtypes/foo/decimal"
+	"github.com/adrianlungu/ogen/conv"
+	"github.com/adrianlungu/ogen/json"
+	"github.com/adrianlungu/ogen/middleware"
+	"github.com/adrianlungu/ogen/ogenerrors"
+	"github.com/adrianlungu/ogen/uri"
 	"github.com/go-faster/jx"
-	decimal3 "github.com/ogen-go/ogen/_testdata/testtypes/bar/decimal"
-	decimal2 "github.com/ogen-go/ogen/_testdata/testtypes/foo/decimal"
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
 )
 
 // OptionalParams is parameters of optional operation.

@@ -5,9 +5,9 @@ package api
 import (
 	"fmt"
 
+	"github.com/adrianlungu/ogen/validate"
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
-	"github.com/ogen-go/ogen/validate"
 
 	std "encoding/json"
 	"testing"
